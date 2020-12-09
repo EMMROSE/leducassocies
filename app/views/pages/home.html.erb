@@ -1,2 +1,85 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid d-flex flex-row justify-content-around">
+      <img src="../assets/logo.jpg" alt="" style="height: 80px; width: auto; border-radius: 8px; box-shadow: 3px 3px 3px 3px #3e3d40;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nos solutions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Qui sommes-nous?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="height: 80vh;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="3000">
+          <img src="../assets/lyon.jpg" style="height: 80vh; width: 100%; margin: auto;" alt="text">
+          <div class="carousel-caption d-none d-md-block" style="font-weight: bolder;">
+            <h3>L’immobilier reste la meilleure classe d’actifs</h3>
+            <h3>pour se constituer un patrimoine et réduire ses impôts</h3>
+            <a class="btn" style="background-color:#00A096; color: white; font-weight: bolder; border-radius: 6px;" href="#">Contactez-nous</a>
+          </div>
+      </div>
+      <div class="carousel-item" data-interval="3000">
+        <img src="../assets/bordeaux.jpg" style="height: 80vh; width: 100%; margin: auto;" alt="...">
+        <div class="carousel-caption d-none d-md-block" style="font-weight: bolder;">
+          <h3>L’immobilier reste la meilleure classe d’actifs</h3>
+          <h3>pour se constituer un patrimoine et réduire ses impôts</h3>
+          <a class="btn" style="background-color:#00A096; color: white; font-weight: bolder;" href="#">Contactez-nous</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="3000">
+        <img src="../assets/lyon.jpg" style="height: 80vh; width: 100%; margin: auto;" alt="..." style="height: 100% !important">
+        <div class="carousel-caption d-none d-md-block" style="font-weight: bolder;">
+          <h3>L’immobilier reste la meilleure classe d’actifs</h3>
+          <h3>pour se constituer un patrimoine et réduire ses impôts</h3>
+          <a class="btn" style="background-color:#00A096; color: white; font-weight: bolder;  border-radius: 6px;" href="#">Contactez-nous</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex flex-row justify-content-around mt-5 mb-2 pl-3 pr-3" style="height: 60vh; width: 100%;">
+    <img src="../assets/profil2.png" alt="" style="height: 105%; width: auto; border-radius: 8px;">
+    <div class="d-flex flex-column w-50 mt-5" style="color: #3E3D40;">
+      <h3><strong>Cabinet Leduc &<span style="color: #00A096;"> Associés</span></strong></h3>
+      <p>Nous estimons que l’immobilier reste la <strong>meilleure classe d’actifs</strong> pour se constituer un <strong>patrimoine</strong> et <strong>réduire ses impôts</strong>.</p>
+      <p>Nous sommes à l’opposé de l’étalement urbain des décennies passées inadapté aussi bien esthétiquement, socialement que d’un point de vue environnemental.</p>
+      <p>Nous privilégions des projets situés dans l'<strong>hyper-centre des villes</strong> de taille moyenne, des choix patrimoniaux avec une <strong>plus-value à terme</strong> et la <strong>création de valeur</strong> dans la durée.</p>
+      <a class="btn" style="width:33%; background-color:#00A096; color: white; font-weight: bolder; border-radius: 6px;" href="#">Contactez-nous</a>
+    </div>
+  </div>
+  <div class="d-flex flex-column h-20 mt-5" style="background-image: url(../assets/design.jpg);">
+    <h2 class="text-center" style="color: #3E3D40; font-weight: bolder;">Nos propositions en dispositifs fiscaux</h2>
+    <div class="d-flex flex-row justify-content-around mt-4 mb-5">
+      <img src="../assets/malraux.jpg" class="card-img-top" style="width: 25%; border-radius: 8px; box-shadow: 3px 3px 3px 3px rgba(203,205,218,0.6);" alt="...">
+      <img src="../assets/monument.jpg" class="card-img-top" style="width: 25%; border-radius: 8px; box-shadow: 3px 3px 3px 3px rgba(203,205,218,0.6);" alt="...">
+      <img src="../assets/deficit.jpg" class="card-img-top" style="width: 25%; border-radius: 8px; box-shadow: 3px 3px 3px 3px rgba(203,205,218,0.6);" alt="...">
+    </div>
+  </div>
+  <div style="min-height: 10vh; background-color: #3E3D40;">
+  </div>
+  <div class="d-flex flex-row w-100 justify-content-between align-middle pl-5 pr-5" style="height: 10vh; background-color:#3E3D40; color: white;">
+    <img src="../assets/logo.jpg" alt="" style="height: 80%; width: auto; border-radius: 8px;">
+    <div class="w-50 d-flex flex-row justify-content-around">
+      <a href="" style="color: white;">mentions légales</a>
+      <a href="" style="color: white;">Contact</a>
+      <a href="" style="color: white;">Notre cabinet</a>
+    </div>
+  </div>
+
+</div>
